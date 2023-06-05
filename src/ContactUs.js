@@ -16,6 +16,7 @@ function ContactUs() {
       email,
       phone,
       comments,
+      phoneType,
       submittedOn: new Date()
     };
 
@@ -25,6 +26,7 @@ function ContactUs() {
     setEmail('');
     setPhone('');
     setComments('');
+    setPhoneType('');
   };
 
   return (
