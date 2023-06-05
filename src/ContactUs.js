@@ -20,6 +20,7 @@ function ContactUs() {
       submittedOn: new Date()
     };
 
+    // testing
     console.log(contactUsInformation)
 
     setName('');
